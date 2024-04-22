@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="app">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\Lahiru\.android\avd\Pixel_7_Pro_Edited_API_34.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-03-03T18:18:30.577944400Z" />
+        </State>
+      </entry>
+      <entry key="burger">
+        <State />
+      </entry>
+      <entry key="order">
+        <State />
+      </entry>
+      <entry key="package1">
+        <State />
+      </entry>
+      <entry key="profile">
+        <State />
+      </entry>
+      <entry key="service">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>

@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">My Application frist</string>
+    <string name="App_theam">FOOD Hub</string>
+    <string name="Start">Get Start</string>
+    <string name="Main_word">Are You Hungry?</string>
+    <string name="Main_word2">All the delicious food on your phone.</string>
+    <string name="Skip1">Skip</string>
+    <string name="Onborad_next1">Next</string>
+    <string name="Onboard_w1">Choose Your Food</string>
+    <string name="Onboard_w2">Add your food to your cart and starting ordering </string>
+    <string name="Onboard_w3">Get Food On Time</string>
+    <string name="Onboard_w4">Fastest Food delivery on time at your door step</string>
+
+    <string name="Onboard_w5">Enjoy Delicious Food </string>
+    <string name="Onboard_w6">Enjoy hot and delicious food with your friends and family</string>
+    <string name="Signin1">Sign In</string>
+    <string name="Signup1">Sign Up</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="Singin_descip">Login to continue ......</string>
+    <string name="password2">Confirm password</string>
+    <string name="phone1">phone number</string>
+    <string name="Offer">Offers</string>
+    <string name="Package">Packages</string>
+    <string name="Service">Services</string>
+    <string name="Get2">Get Now..</string>
+    <string name="Type">Categories</string>
+    <string name="Searchbar">Search..</string>
+    <string name="b1_price">KFC -Rs:250</string>
+    <string name="b2_price">Macdonal-Rs:300</string>
+    <string name="b3_price">Zinger-Rs:250</string>
+    <string name="b4_price">KFC-Rs:500</string>
+    <string name="b5_price">KFC COMBO -RS:750</string>
+    <string name="Qty">Qty :</string>
+    <string name="Plus">+</string>
+    <string name="Qut_num">1</string>
+    <string name="Pay">Pay</string>
+    <string name="Back1">Back</string>
+    <string name="P_name">Name : Ishani Chamishka</string>
+    <string name="P_phone">Mobile : 078-1020304</string>
+    <string name="Address"> 12/A Kahanthota road,Pittugala</string>
+    <string name="Address1">Address :</string>
+    <string name="Logout">Logout</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="word1">"Register student"</string>
+    <string name="name">"Full Name"</string>
+    <string name="year">"Select Accadmic Year"</string>
+    <string-array name="select1">
+        <item> </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="semester">"Semester"</string>
+    <string-array name="select2">
+        <item> </item>
+        <item>1</item>
+        <item>2</item>
+
+    </string-array>
+    <string name="agree">"Are you Agree"</string>
+    <string name="submit">"Submit"</string>
+    <string name="cancel">"Cancel"</string>
+
+
+
+
+
+
+
+</resources>

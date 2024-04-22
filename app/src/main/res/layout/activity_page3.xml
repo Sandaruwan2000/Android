@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/litepurple"
+    tools:context=".page3">
+
+    <ImageView
+        android:id="@+id/Onboard_p1"
+        android:layout_width="288dp"
+        android:layout_height="315dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/Onboard_w1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back1"
+        app:srcCompat="@drawable/i9" />
+
+    <ImageButton
+        android:id="@+id/back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/litepurple"
+        app:layout_constraintBottom_toTopOf="@+id/Onboard_p1"
+        app:layout_constraintEnd_toStartOf="@+id/Skip1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <Button
+        android:id="@+id/Skip1"
+        android:layout_width="81dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/litepurple"
+        android:text="@string/Skip1"
+        android:textColor="@color/purple"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Onboard_p1"
+        app:layout_constraintStart_toEndOf="@+id/back1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/Onboard_w1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="34dp"
+        android:text="@string/Onboard_w1"
+        android:textColor="@color/purple"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Onboard_w2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Onboard_p1" />
+
+    <TextView
+        android:id="@+id/Onboard_w2"
+        android:layout_width="316dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="55dp"
+        android:text="@string/Onboard_w2"
+        android:textColor="@color/purple"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Onborad_next1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Onboard_w1" />
+
+    <Button
+        android:id="@+id/Onborad_next1"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/purple"
+        android:text="@string/Onborad_next1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Onboard_w2"
+        app:layout_constraintVertical_bias="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
